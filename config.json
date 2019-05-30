@@ -4,20 +4,18 @@
       "name": "cwp-33",
       "user": "GENIUS_DATABASE_12345",
       "pass": "12345",
-      "port": 1433,
-      "dialect": "mssql"
-      },
-      "define": {
-        "timestamps": true,
-        "paranoid": true
+      "options": {
+        "host": "localhost",
+        "port": 1433,
+        "dialect": "mssql"
       }
     },
     "production": {
-      "name": "d583ic9gudvtl0",
-      "user": "gxevnydjswfpoq",
-      "pass": "1ed4199ce5b4e2ec8ada4bcdbb1a84fa83106baf2a38adcab163f82aaa5d397f",
+      "name": "dab8eh2tsrvsur",
+      "user": "qhjejgvylylatw",
+      "pass": "4587ea2e416c7c46dad61180ead16398ba4c134475798e2a1ea8635f597f49c5",
       "options": {
-        "host": "ec2-184-73-210-189.compute-1.amazonaws.com",
+        "host": "ec2-54-225-76-136.compute-1.amazonaws.com",
         "port": 5432,
         "dialect": "postgres",
         "define": {
@@ -32,5 +30,4 @@
       }
     }
   }
-
 }
